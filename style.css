@@ -1,0 +1,24 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: linear-gradient(to left, #ff6ec3, #e3f580, #7f94f4);
+}
+
+.main-container {
+    place-items: center;
+    margin: 2% 2% 2% 2%;
+    height: 100vh;
+    border-style:double;
+    border-width: 4vh;
+    margin-bottom: 0;
+}
+
+canvas {
+    width: 450px;
+    height: 450px;
+}
